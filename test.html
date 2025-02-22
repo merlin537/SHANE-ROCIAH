@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Mail System</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="login-box" id="loginBox">
+            <h2>USER LOGIN</h2>
+            <div class="input-container">
+                <input type="text" id="username" placeholder="Username">
+            </div>
+            <div class="input-container">
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            <button class="login-button" onclick="login()">LOGIN</button>
+        </div>
+        <div class="message-box" id="messageBox"></div>
+        <div class="input-box" id="chatBox">
+            <input type="text" id="messageInput" placeholder="Type your message...">
+            <button class="send-btn" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    
+    <script src="test.js"></script>
+</body>
+</html>
